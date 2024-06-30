@@ -209,8 +209,9 @@ header{
     text-align: center;
     transition: width 0.7s;
     text-decoration: none;
-    animation:fade 2s ease, bright 6s 10s ease infinite;
+    animation:fade 2s ease, bright 5s 10s ease infinite;
     filter:blur(100%);
+    transition: all 1s;
 
    
 
