@@ -14,7 +14,7 @@ span{
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    background-clip: text;
-   animation: animate-gradient 2s linear infinite;
+   animation: animate-gradient 2s 3s linear infinite;
    cursor:pointer;
    animation:fade 2s ease;
 
@@ -48,7 +48,7 @@ header{
    background-clip: text;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-   animation: animate-gradient 3s linear infinite;
+   animation: animate-gradient 3s 3s linear infinite;
    animation:fade 2s ease;
 }
 @keyframes animate-gradient{
@@ -70,7 +70,7 @@ header{
    background-clip: text;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-   animation: animate-gradient 3s linear infinite;
+   animation: animate-gradient 3s 3s linear infinite;
    animation:fade 2s ease;
 }
 @keyframes animate-gradient{
@@ -209,7 +209,7 @@ header{
     text-align: center;
     transition: width 0.7s;
     text-decoration: none;
-    animation:fade 2s ease, bright 6s 10s ease;
+    animation:fade 2s ease, bright 4s 10s ease;
 }
 .button1:hover{
     border:none;
