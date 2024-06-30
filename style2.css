@@ -81,6 +81,7 @@ h1{
     min-width:35px;
     border-radius: 50%;
     border:1px solid white;
+    animation: divine 3s ease infinite;
     
 }
 header{
@@ -189,6 +190,6 @@ to {
 }
 @keyframes divine{
     0%{transform: translateY(0%)}
-    50%{transform: translateY(-5%)}
+    50%{transform: translateY(-10%)}
     100%{transform: translateY(0%)}
 }
