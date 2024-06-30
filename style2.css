@@ -1,0 +1,194 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(44, 44, 44);
+    font-family:"Montserrat", sans-serif;
+    font-weight: normal;
+}
+sup{
+    font-family:"Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+
+}
+span{
+    background:radial-gradient(  rgba(255,236,2,1), rgb(255, 150, 2), rgba(255,187,29,1), rgba(255,175,7,1));
+    font-family:"Montserrat", sans-serif;
+    font-size: larger;
+    font-weight:500;
+   word-spacing: 8px;
+   background-size: 200%;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   animation: animate-gradient 2s linear infinite;
+}
+@keyframes animate-gradient{
+    to {
+        background-position: 200%;
+    }
+}
+ 
+.navdiv{
+    background:radial-gradient(  rgba(255,236,2,1), rgb(255, 150, 2), rgba(255,187,29,1), rgba(255,175,7,1));
+    font-family:"Montserrat", sans-serif;
+    font-size: 2.5em;
+    font-weight:500;
+   word-spacing: 8px;
+   background-size: 200%;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   animation: animate-gradient 2s linear infinite, fade 2.5s ease;
+   margin-left: 10px;
+
+}
+@keyframes animate-gradient{
+    to {
+        background-position: 200%;
+    }
+}
+.navdiv:hover{
+      
+      animation: animate-gradient 0.2s linear infinite;
+      cursor:pointer;
+      transition: all 1s;
+} 
+h1{
+    text-align: center;
+    font-size: 2em;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    background: radial-gradient(white,rgb(119, 118, 118),aliceblue),silver;
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2s linear infinite,  fade 2.5s ease;
+    
+}
+
+.img1{
+    position:fixed;
+    cursor:pointer;
+    right:0px;
+    bottom:0px;
+    max-width:2vw;
+    min-width:35px;
+    border-radius: 50%;
+    border:1px solid white;
+    
+}
+header{
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    text-align: center;
+    max-width:1200px;
+    min-width:95vw;
+    width:auto;
+    animation:fade 2.5s,getbig .5s;
+    
+    
+}
+ul{
+    list-style: none;
+    display:flex;
+    gap:2vw;
+}
+li{
+    color:white;
+}
+.a{
+    text-decoration: none;
+    color:white;
+}
+.material-symbols-outlined{
+    font-size:1.75em;
+}
+.material-symbols-outlined:hover{
+    font-size:1.9em;
+    
+}
+main,footer{text-align:center;}
+.h1{
+    text-align: center;
+    font-size: 2em;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    background: radial-gradient(white,rgb(121, 121, 121)aliceblue),silver;
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2s linear infinite,  fade 2.5s ease;
+    
+
+    
+}
+
+.start{
+    min-width:300px;
+    max-width:40vw;
+    min-height:400px;
+    max-height:50vh;
+    animation: fade 3s ease, divine 5s 3s ease infinite;
+}
+.start2{
+    min-width:300px;
+    max-width:40vw;
+    min-height:400px;
+    max-height:50vh;
+    animation: fade 3s ease, divine 5s 3s ease infinite;
+   
+
+}
+
+h2{
+    background:radial-gradient(  rgba(255,236,2,1), rgb(255, 150, 2), rgba(255,187,29,1), rgba(255,175,7,1));
+    font-family:"Montserrat", sans-serif;
+    font-size: 6.5em;
+    font-weight:500;
+   background-size: 200%;
+   -webkit-background-clip: text;
+   text-align: center;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   animation: animate-gradient 1s linear infinite;
+ 
+}
+@keyframes animate-gradient{
+    to {
+        background-position: 200%;
+    }
+
+}
+@keyframes getbig{
+    0%{scale:0}
+    100%{scale:1}
+}
+@keyframes animate-gradient{
+to {
+    background-position: 200%;
+}
+}
+@keyframes fade{
+    from{opacity:0}
+    to{opacity:1}
+}
+@keyframes divine{
+    0%{transform: translateY(0%)}
+    50%{transform: translateY(-5%)}
+    100%{transform: translateY(0%)}
+}
