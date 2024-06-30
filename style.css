@@ -268,9 +268,8 @@ margin-left:20vw;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    background-clip: text;
-   animation: animate-gradient 2s linear infinite;
    cursor:pointer;
-   animation:fade 2s ease, animate-gradient 4s linear infinite;
+   animation:fade 2s ease, animate-gradient 2s linear infinite;
    
 }
 @keyframes animate-gradient{
