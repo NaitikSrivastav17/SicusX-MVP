@@ -270,7 +270,7 @@ margin-left:20vw;
    background-clip: text;
    animation: animate-gradient 2s linear infinite;
    cursor:pointer;
-   animation:fade 2s ease, divine 5s 3s ease infinite;
+   animation:fade 2s ease, animate-gradient 4s linear infinite;
    
 }
 @keyframes animate-gradient{
