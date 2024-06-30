@@ -14,9 +14,9 @@ span{
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    background-clip: text;
-   animation: animate-gradient 2s  linear infinite;
+   animation: animate-gradient 2s linear infinite;
    cursor:pointer;
-  
+   
 
 }
 @keyframes animate-gradient{
@@ -48,7 +48,7 @@ header{
    background-clip: text;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-   animation: animate-gradient 3s 3s linear infinite;
+   animation: animate-gradient 3s linear infinite;
    animation:fade 2s ease;
 }
 @keyframes animate-gradient{
@@ -70,7 +70,7 @@ header{
    background-clip: text;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-   animation: animate-gradient 3s 3s linear infinite;
+   animation: animate-gradient 3s linear infinite;
    animation:fade 2s ease;
 }
 @keyframes animate-gradient{
@@ -209,7 +209,11 @@ header{
     text-align: center;
     transition: width 0.7s;
     text-decoration: none;
-    animation:fade 2s ease, bright 4s 10s ease;
+    animation:fade 2s ease, bright 6s 10s ease infinite;
+    filter:blur(100%);
+
+   
+
 }
 .button1:hover{
     border:none;
@@ -217,7 +221,13 @@ header{
     background:linear-gradient(90deg,rgb(255, 192, 3) , rgb(255, 72, 0));
     width:50vw;
 }
-
+.button1:active{
+    background-color:white;
+}
+.button1:visited{
+    background-color: silver;
+}
+    
 
 .lgin{
     font-family: "Montserrat", sans-serif;
@@ -232,7 +242,7 @@ header{
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    animation: animate-gradient 2s linear infinite;
-   animation:fade 2s ease;
+   
 }
 @keyframes animate-gradient{
     to {
@@ -268,8 +278,9 @@ margin-left:20vw;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    background-clip: text;
+   animation: animate-gradient 2s linear infinite;
    cursor:pointer;
-   animation:animate-gradient 2s linear infinite;
+  
    
 }
 @keyframes animate-gradient{
@@ -289,7 +300,7 @@ margin-left:20vw;
     left:0.5vw;
     width:35px;
     cursor:pointer;
-    animation:fade 2s ease,divine 4s ease infinite;
+    animation:fade 2s ease;
 }
 @keyframes bright{
     0%{filter:brightness(100%)}
@@ -306,7 +317,7 @@ to {
 }
 @keyframes divine{
     0%{transform: translateY(0%)}
-    50%{transform: translateY(-50%)}
+    50%{transform: translateY(50%)}
     100%{transform: translateY(0%)}
 }
 @keyframes divinenine{
