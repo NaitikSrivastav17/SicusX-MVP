@@ -1,1 +1,1 @@
-window.alert("This Is The MVP Page of SicusX.")
+window.alert("This Is The MVP Version of SicusX.")
