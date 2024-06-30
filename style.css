@@ -14,9 +14,9 @@ span{
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
    background-clip: text;
-   animation: animate-gradient 2s 3s linear infinite;
+   animation: animate-gradient 2s  linear infinite;
    cursor:pointer;
-   animation:fade 2s ease;
+  
 
 }
 @keyframes animate-gradient{
@@ -269,7 +269,7 @@ margin-left:20vw;
    -webkit-text-fill-color: transparent;
    background-clip: text;
    cursor:pointer;
-   animation:fade 2s ease, animate-gradient 2s linear infinite;
+   animation:animate-gradient 2s linear infinite;
    
 }
 @keyframes animate-gradient{
@@ -289,7 +289,7 @@ margin-left:20vw;
     left:0.5vw;
     width:35px;
     cursor:pointer;
-    animation:fade 2s ease;
+    animation:fade 2s ease,divine 4s ease infinite;
 }
 @keyframes bright{
     0%{filter:brightness(100%)}
@@ -306,7 +306,7 @@ to {
 }
 @keyframes divine{
     0%{transform: translateY(0%)}
-    50%{transform: translateY(50%)}
+    50%{transform: translateY(-50%)}
     100%{transform: translateY(0%)}
 }
 @keyframes divinenine{
