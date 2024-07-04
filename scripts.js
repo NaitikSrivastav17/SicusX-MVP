@@ -1,1 +1,1 @@
-window.alert("This Is The MVP Version of SicusX.")
+window.alert("It is a shadow testing, the MVP for SicusX will be ready soon.")
